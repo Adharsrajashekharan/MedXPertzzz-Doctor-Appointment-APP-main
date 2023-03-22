@@ -1,0 +1,319 @@
+.applyAsDoctor{
+
+    width: 100%;
+    height: 900px;
+    background-color: #F5F5DC;
+    
+}
+
+.doctorImg1 {
+
+    width: 200px;
+    height: 200px;
+    border-end-end-radius: 25%;
+    border-start-start-radius: 25%;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 150px;
+    
+}
+
+
+.doctorImg2 {
+
+    width: 300px;
+    height: 300px;
+    border-start-end-radius: 25%;
+    border-end-start-radius: 25%;
+    box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 100px;
+}
+
+.doctorImg4{
+
+    width: 300px;
+    height: 350px;
+    border-end-end-radius: 35%;
+    border-start-start-radius: 35%;
+    box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 100px;
+    margin-left: 50px;
+
+
+}
+
+.color-change-2x {
+	-webkit-animation: color-change-2x 2s linear infinite alternate both;
+	        animation: color-change-2x 2s linear infinite alternate both;
+
+}
+
+
+@-webkit-keyframes color-change-2x {
+  0% {
+    background: #FFFFE0;
+  }
+  100% {
+    background: #FFEFD5 ;
+  }
+}
+@keyframes color-change-2x {
+  0% {
+    background: #E6E6FA;
+  }
+  100% {
+    background: #E0FFFF;
+  }
+}
+
+
+
+
+
+
+
+
+
+.bckcolo{
+
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 166, 0);
+    
+    position: relative;
+    top: -480px;
+    left: -100px;
+    -webkit-transform: rotate(40deg);
+    box-shadow: 8px 8px 6px rgba(0, 0, 0, 0.2), 5px 6px 20px 0 rgba(0, 0, 0, 0.19);
+    animation: rotate 2s linear infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.text-focus-in {
+	-webkit-animation: text-focus-in 3s cubic-bezier(0.550, 0.085, 0.680, 0.530) both  infinite;
+	        animation: text-focus-in 3s cubic-bezier(0.550, 0.085, 0.680, 0.530) both  infinite;
+}
+@-webkit-keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
+@keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+
+
+
+
+.applyAsDoctor h1{
+
+    font-size: 50px;
+    color: rgb(255, 166, 0);
+    margin-top: 150px;
+    font-family: 'Tajawal', sans-serif;
+    padding-left: 150px;
+    font-weight: 900;
+    text-shadow: 2px 2px #f7f2f2;
+
+}
+
+.applyAsDoctor h2{
+
+    font-size: 35px!important;
+    color: rgb(15, 15, 16);
+    margin-top: 50px;
+    font-family: 'Tajawal', sans-serif;
+    font-weight: 700;
+    margin-left: 50px;
+    letter-spacing: 1px;
+
+
+
+}
+
+.quality{
+
+      font-size: 35px!important;
+      letter-spacing: 2;
+}
+
+.applyAsDoctor h3{
+
+    font-size: 20px;
+    color: rgb(15, 15, 16);
+    margin-top: 50px;
+    font-family: 'Tajawal', sans-serif;
+    font-weight: 700;
+    margin-left: 170px;
+
+}
+
+
+.applyDocBtn .btn1{
+
+    width: 250px;
+    height: 70px;
+    margin-left: 100px;
+    margin-top: 50px;
+    font-size: 25px;
+ box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.applyDocBtn .btn2{
+
+    width: 250px;
+    height: 70px;
+    margin-left: 70px;
+    margin-top: 50px;
+    font-size: 25px;
+ box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+  /* CSS styles for mobile devices */
+
+
+.applyAsDoctor{
+
+    width: 100%;
+    height: 1950px;
+    background-color: #F5F5DC;
+    margin-top: 450px;
+    
+}
+
+.applyAsDoctor h1{
+
+    font-size: 60px;
+    color: rgb(255, 166, 0);
+    margin-top: 150px;
+    font-family: 'Tajawal', sans-serif;
+     margin-left: -50px;
+    font-weight: 800;
+
+}
+  
+.doctorImg1 {
+
+    width: 200px;
+    height: 200px;
+    border-end-end-radius: 25%;
+    border-start-start-radius: 25%;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 150px;
+    
+}
+
+
+.doctorImg2 {
+
+    width: 200px;
+    height: 200px;
+    border-start-end-radius: 25%;
+    border-end-start-radius: 25%;
+    box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 150px;
+}
+
+.doctorImg4{
+
+    width:200px;
+    height: 350px;
+    border-end-end-radius: 35%;
+    border-start-start-radius: 35%;
+    box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 100px;
+    margin-left: 50px;
+
+
+}
+.bckcolo{
+
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 1720px;
+    left: 220px;
+}
+
+.descrip{
+
+    
+  align-items: center;
+  text-align: center;
+  margin-left: -70px;
+  margin-top: -70px;
+  
+}
+
+
+}
+
+.applyDocBtn .btn1{
+
+    width: 250px;
+    height: 70px;
+   margin-left: 150px;
+    margin-top: 50px;
+    font-size: 25px;
+ box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.applyDocBtn .btn2{
+
+    width: 250px;
+    height: 70px;
+    margin-left: 150px;
+    margin-top: 50px;
+    font-size: 25px;
+ box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+
+.applyAsDoctor h2{
+
+    font-size: 40px;
+    color: rgb(15, 15, 16);
+    margin-top: 50px;
+    font-family: 'Tajawal', sans-serif;
+    font-weight: 700;
+    margin-left: 150px;
+
+
+
+}
+
+
+
+

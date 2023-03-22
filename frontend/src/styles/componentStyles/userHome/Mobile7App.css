@@ -1,0 +1,295 @@
+
+.mobile7app{
+
+    margin-top: 150px;
+
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+
+  /* ff 3.6+ */
+    background:-moz-linear-gradient(90deg, rgba(255, 255, 0, 1) 0%, rgba(238, 130, 238, 1) 100%); 
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-linear-gradient(90deg, rgba(255, 255, 0, 1) 0%, rgba(238, 130, 238, 1) 100%);
+
+    /* opera 11.10+ */
+    background:-o-linear-gradient(90deg, rgba(255, 255, 0, 1) 0%, rgba(238, 130, 238, 1) 100%);
+
+    /* ie 6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ee82ee', endColorstr='#FFFF00', GradientType=0 );
+
+    /* ie 10+ */
+    background:-ms-linear-gradient(90deg, rgba(255, 255, 0, 1) 0%, rgba(238, 130, 238, 1) 100%);
+
+    /* global 94%+ browsers support */
+    background:linear-gradient(90deg, rgba(255, 255, 0, 1) 0%, rgba(238, 130, 238, 1) 100%);
+}
+
+
+.mobile7app h1{
+
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    color: #fff;
+    font-weight: 900;
+    font-size: 65px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+      text-shadow: 2px 2px #000000;
+
+}
+
+
+
+.girlmove{
+
+  position: relative;
+   left: 0;
+    top: 50px;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+    animation: move 2s infinite;
+}
+
+
+@keyframes move {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(50px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.phoneaddress{
+
+position: relative;
+top: 150px;
+right: 700px;
+height: 60px;
+width: 100px;
+animation: move-top-to-bottom 4s ease-in-out forwards infinite, move-bottom-to-top 4s ease-in-out forwards 4s infinite;
+ 
+
+}
+
+
+
+.phonesettings{
+position: relative;
+top: 450px;
+right: 400px;
+height: 60px;
+width: 100px;
+
+ 
+
+}
+
+.bounce-out-top {
+	-webkit-animation: bounce-out-top 3.5s both infinite;
+	        animation: bounce-out-top 3.5s both infinite;
+}
+
+@-webkit-keyframes bounce-out-top {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  5% {
+    -webkit-transform: translateY(-30px);
+            transform: translateY(-30px);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  15% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  25% {
+    -webkit-transform: translateY(-38px);
+            transform: translateY(-38px);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  38% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  52% {
+    -webkit-transform: translateY(-75px);
+            transform: translateY(-75px);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  70% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  85% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translateY(-800px);
+            transform: translateY(-800px);
+    opacity: 0;
+  }
+}
+@keyframes bounce-out-top {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  5% {
+    -webkit-transform: translateY(-30px);
+            transform: translateY(-30px);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  15% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  25% {
+    -webkit-transform: translateY(-38px);
+            transform: translateY(-38px);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  38% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  52% {
+    -webkit-transform: translateY(-75px);
+            transform: translateY(-75px);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  70% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  85% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translateY(-800px);
+            transform: translateY(-800px);
+    opacity: 0;
+  }
+}
+
+
+
+
+
+
+@keyframes move-top-to-bottom {
+  0% {
+    top: 0;
+  }
+  100% {
+    top: calc(100vh - 200px); /* change 100px to the desired height of your element */
+  }
+}
+
+
+
+
+
+@-webkit-keyframes expand{
+    0%{height:0px}
+    100%{height:1000px}
+}
+
+
+.bookOnMobile{
+
+    height: 600px;
+    width: 400px;
+    padding: 20px;
+    border: 7px solid black;
+    margin-left: 100px;
+}
+
+.mobileScreen{
+
+     height: 450px;
+    width: 300px;
+    padding: 50px;
+    border: 7px solid black;
+    margin-top: 70px;
+    margin-left: 25px;
+    background-color: white;
+     
+    
+}
+
+
+.bookNow{
+
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 85px;
+    left: 50px;
+    
+}
+
+.booknow{
+
+     height: 100px;
+    width: 100px;
+    position: relative;
+    top: -565px;
+    left: 50px;
+}
+
+
+
+
+@media only screen and (max-width: 767px) {
+
+
+.mobile7app h1{
+
+
+font-size: 40px;
+
+}
+
+.mobilePhoto{
+
+    position: relative;
+    left:-60px;
+    top: 100px;
+}
+
+
+
+}

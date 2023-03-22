@@ -1,0 +1,66 @@
+
+.healthBlogz{
+
+    margin-top: 150px;
+    padding-bottom: 100px;
+}
+
+.slick-slider {
+  /* background-color: aquamarine; */
+  padding-left: 20px;
+}
+
+.slick-prev {
+  z-index: 1;
+  /* background-color: red !important; */
+}
+.slick-next {
+  z-index: 1;
+  /* background-color: red !important; */
+}
+
+.slick-dots li button:before {
+  color: rgb(179, 178, 178) !important;
+  font-size: 10px !important;
+  margin-top: 10px;
+}
+.slick-dots button {
+  /* background-color: blue !important; */
+}
+
+.slick-dots li.slick-active button:before {
+  color: white !important;
+  /* font-size: 12px !important; */
+}
+
+.healthButton{
+
+     width: 70px;
+  height: 30px;
+  outline: none;
+  border: none;
+  background-color: #0d1117;
+  border: 1px solid rgb(49, 54, 61);
+  color: rgba(255, 255, 255, 0.5);
+  color: rgb(179, 178, 178) !important;
+}
+
+
+
+
+@media only screen and (max-width: 767px) {
+
+
+
+
+.healthBlogz
+.slick-slider {
+
+    margin-top: 120px;
+    margin-left: 140px;
+
+}
+
+
+
+}

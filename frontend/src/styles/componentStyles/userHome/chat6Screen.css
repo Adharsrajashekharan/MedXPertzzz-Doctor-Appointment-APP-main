@@ -1,0 +1,130 @@
+
+.chatHomePage{
+
+    width: 100%;
+    height: 970px;
+    margin-top: 150px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+  
+    /* ff 3.6+ */
+    background:-moz-linear-gradient(90deg, rgba(233, 30, 99, 1) 0%, rgba(33, 150, 243, 1) 50%, rgba(139, 195, 74, 1) 100%); 
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-linear-gradient(90deg, rgba(233, 30, 99, 1) 0%, rgba(33, 150, 243, 1) 50%, rgba(139, 195, 74, 1) 100%);
+
+    /* opera 11.10+ */
+    background:-o-linear-gradient(90deg, rgba(233, 30, 99, 1) 0%, rgba(33, 150, 243, 1) 50%, rgba(139, 195, 74, 1) 100%);
+
+    /* ie 6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8bc34a', endColorstr='#E91E63', GradientType=0 );
+
+    /* ie 10+ */
+    background:-ms-linear-gradient(90deg, rgba(233, 30, 99, 1) 0%, rgba(33, 150, 243, 1) 50%, rgba(139, 195, 74, 1) 100%);
+
+    /* global 94%+ browsers support */
+    background:linear-gradient(90deg, rgba(233, 30, 99, 1) 0%, rgba(33, 150, 243, 1) 50%, rgba(139, 195, 74, 1) 100%);
+
+    
+}
+
+.chatDescription h1{
+
+    font-size: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 800;
+    color: #fff;
+     text-shadow: 2px 2px #ff0000;
+}
+
+
+.chatDescription h3{
+
+     font-size: 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+     color: yellow;
+     text-shadow: 2px 2px #151515;
+}
+
+
+.chatDescription h4{
+
+     font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    text-shadow: 1px 1px black;
+}
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+  /* CSS styles for mobile devices */
+
+
+.chatHomePage{
+    width: 100%;
+    height: 1670px;
+    margin-top: 150px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    text-align: center;
+    align-items: center;
+}
+
+.chatVideo{
+
+    margin-left: -120px;
+    position: relative;
+    top: 300px;
+}
+
+
+
+.chatDescription h1{
+
+    font-size: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 800;
+    color: #fff;
+     text-shadow: 2px 2px #ff0000;
+     position: relative;
+     top: -800px;
+}
+
+
+.chatDescription h3{
+
+     font-size: 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+     color: yellow;
+     text-shadow: 2px 2px #151515;
+     position: relative;
+     top: -840px;
+     text-align: center;
+}
+
+
+.chatDescription h4{
+
+     font-size: 15px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    text-shadow: 1px 1px black;
+    text-align: center;
+    position: relative;
+    left: -70px;
+}
+
+.chatBtn{
+
+    position: relative;
+    left: -100px;
+}
+
+
+
+}

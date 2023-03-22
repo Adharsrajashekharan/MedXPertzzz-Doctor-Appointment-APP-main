@@ -1,0 +1,116 @@
+*{
+   
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.banner{
+
+    
+
+    /* ff 3.6+ */
+    background:-moz-linear-gradient(90deg, rgba(238, 130, 238, 1) 0%, rgba(0, 209, 255, 1) 100%); 
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-linear-gradient(90deg, rgba(238, 130, 238, 1) 0%, rgba(0, 209, 255, 1) 100%);
+
+    /* opera 11.10+ */
+    background:-o-linear-gradient(90deg, rgba(238, 130, 238, 1) 0%, rgba(0, 209, 255, 1) 100%);
+
+    /* ie 6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00D1FF', endColorstr='#EE82EE', GradientType=0 );
+
+    /* ie 10+ */
+    background:-ms-linear-gradient(90deg, rgba(238, 130, 238, 1) 0%, rgba(0, 209, 255, 1) 100%);
+
+    /* global 94%+ browsers support */
+    background:linear-gradient(90deg, rgba(238, 130, 238, 1) 0%, rgba(0, 209, 255, 1) 100%);
+
+
+   
+    height: 190vh;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    position: relative;
+}
+
+
+.banner .waves{
+
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+}
+
+
+.banner .wavez{
+
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 0;
+}
+
+
+
+
+
+
+.applyDocimg{
+
+    width: 100%;
+    height: 500px;
+}
+
+
+.bannerImage{
+
+    background: url('../../../Images/applyForDoc.jpg');
+     height: 100vh;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    position: relative;
+    
+}
+
+
+.whyJoinUs{
+
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 400px;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+  margin-right: 100px;
+
+}
+
+.whyJoinUs i{
+
+    font-size: 100px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color:red
+    
+
+}
+
+
+.whyJoinUs:hover {
+			background-color: rgba(0, 255, 76, 0.626);
+			transform: scale(1.2);
+            color:white
+		}
+
+
+
+

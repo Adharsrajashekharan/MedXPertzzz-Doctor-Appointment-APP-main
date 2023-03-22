@@ -1,0 +1,163 @@
+
+header{
+
+    margin-top: 0px;
+    background-color: #ffffff9c;
+    height: 800px;
+   
+}
+
+
+
+header .row{
+
+    margin: 50px 0px;
+   
+
+}
+
+header .row h5 {
+
+    color: #00308F ;
+    font-size: 30px;
+    margin: 40px 0px 20px 0px;
+     padding-top: 100px;
+}
+
+
+header h2{
+
+    color:#0000FF;
+    font-size: 50px;
+    margin: 30px 0px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+}
+
+header .header-box{
+
+    position: relative;
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+header img {
+
+    max-width: 100%;
+    width: 430px;
+    height: auto;
+    animation: mover 1s infinite alternate;
+    transition: .3s ease all;
+    padding-top: 100px;
+   
+}
+
+@keyframes mover {
+    
+    0%{
+
+        transform: translateY(-20px);
+    }
+
+    
+    100%{
+
+        transform: translateY(10px);
+    }
+}
+   
+  header svg{
+
+    color: var(--orange-color);
+    font-size: 80px;
+    position: absolute;
+    right: 360px;
+    animation: mover 2s infinite alternate;
+    transform: rotate(45deg)!important;
+  }
+
+ 
+.plus{
+
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 350px;
+    bottom: 50px;
+}
+
+
+
+
+header button {
+
+    background-color: orange   !important;
+    width: 200px;
+    height: 60px;
+    border: 1px solid orange !important;
+    border-radius: 4px !important;
+    margin-top: 40px;
+    transition: .2s ease;
+    color:#fff;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+	
+
+}
+
+
+
+@media only screen and (max-width: 767px) {
+  /* CSS styles for mobile devices */
+
+
+
+header .row h5 {
+
+    color: #00308F ;
+    font-size: 20px;
+    margin: 20px 0px 20px 0px;
+    
+}
+
+
+header h2{
+
+    color:#0000FF;
+    font-size: 35px;
+    margin: 30px 0px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+}
+
+
+header img {
+
+     display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+    max-width: 100%;
+    width: 430px;
+    height: auto;
+    animation: mover 1s infinite alternate;
+    transition: .3s ease all;
+    
+   
+}
+
+
+
+
+
+
+
+}
+
+

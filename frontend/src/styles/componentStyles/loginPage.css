@@ -1,0 +1,184 @@
+.loginCards{
+
+    height: 110vh;
+}
+
+.loginCards img{
+
+    height: 110vh;
+}
+
+
+
+
+.loginPageDoctor{
+
+    background-color: #9A616D;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.appText{
+
+color:rgb(163, 41, 41);
+font-family: 'Playfair Display', serif;
+font-size: 50px;
+}
+
+
+
+.lgnbtnz{
+
+    background-color:#c0576e;;
+    margin-left: -160px;
+    width: 380px;
+    height: 150px;
+    margin-bottom: 50px;
+    margin-top: -120px!important;
+
+   
+    
+   
+}
+
+.passwordz{
+
+    border: none!important;
+    
+}
+
+
+.ant-input{
+
+   
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      
+     
+}
+
+.ant-form-item-required{
+
+    padding-bottom: -50px;
+    padding-top: 40px;
+}
+
+
+.btnz{
+
+    
+    margin-left: -20px;
+}
+
+.inputh{
+
+    border: 1px solid rgba(0, 0, 0, 0.758);
+}
+
+.loginform{
+
+    font-size: 30px;
+}
+
+.formItems{
+
+    width: 600px;
+    height: 70px;
+    font-size: 30px;
+    font-weight: 700;
+    
+}
+
+input{
+
+    border-radius: 2px !important;
+    border: 1px solid gray !important;
+    height: 50px !important;
+   
+}
+
+input :focus{
+
+    outline: none !important;
+    box-shadow: none !important;
+    border: 1px solid rgb(245, 85, 85) !important;
+}
+
+label {
+
+    font-size: 20px !important;
+ 
+
+}
+
+
+
+.textz{
+
+    font-size: 30px;
+}
+
+.ant-form-item{
+
+    margin-bottom: 50px !important;
+}
+
+.ant-input-lg{
+/* 
+    border: none !important;
+    box-shadow: none !important; */
+}
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+  /* CSS styles for mobile devices */
+
+.loginPageDoctorImage{
+
+    display: none;
+}
+
+.lgnbtnz{
+
+    background-color:#c0576e;;
+    margin-left: -120px;
+    width: 380px;
+    height: 50px!important;
+    margin-bottom: 50px;
+    margin-top: -120px!important;
+
+   
+    
+   
+}
+
+
+.appText{
+
+color:rgb(163, 41, 41);
+font-family: 'Playfair Display', serif;
+font-size: 50px!important;
+padding-top: 0px;
+}
+
+
+.textz{
+
+    font-size: 30px;
+    color: orange;
+    text-align: center;
+
+}
+
+.loginCards{
+
+    height: 114vh!important;
+}
+
+
+
+
+
+}
